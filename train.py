@@ -7,8 +7,13 @@ from keras.layers import Dense
 from keras.layers import LSTM
 from keras.layers import Dropout
 from sklearn.preprocessing import MinMaxScaler
+from os import makedirs
+from os.path import exists, abspath
 
 #Change this variable : this the number of timesteps used by the model to make the prediction
+Graph = abspath("Graph")
+if not exists(Graph):
+    makedirs(Graph)
 
 def train(csv_train):
     timesteps = 60
