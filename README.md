@@ -1,5 +1,6 @@
 # LSTM_stocks_predict
 For now, it's a basic code to predict stockprices based on .csv datasets.  
+
 ![](doc/Google_stockprices_predictions.PNG)
 
 
