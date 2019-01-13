@@ -1,9 +1,18 @@
 # LSTM_stocks_predict
-If you want to use your own dataset, dont forget to change the `dataset_train` path, line 14.  
-You can modify the number of `timesteps` too.  
+For now, it's a basic code to predict stock prices based on .csv datasets.
 
-## Tensorboard visualisation
+If you want to use your own dataset, dont forget to change the `dataset_train` in `train.py`and `test.py` when the function is called.  
+You can modify the number of `timesteps` too (in both files).  
+
+## Tensorboard visualisation  
 Open a terminal in ..\LSTM_stocks_predict folder and type `tensorboard --logdir Graph/`  
+Then, copy/paste the link given on your browser.  
 
+## Improvements to make  
+
+* First, enable the terminal commande with --dataset datasetfolder/datasetfile.csv , etc...  
+* Adapting visualisation of the results (based on the name of the file, etc...)  
+* User interface  
+* ...  
 
 
