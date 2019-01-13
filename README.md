@@ -1,5 +1,7 @@
 # LSTM_stocks_predict
 For now, it's a basic code to predict stockprices based on .csv datasets.  
+![predictions](/doc/Google_stockprices_predictions.png)  
+Format: ![Alt Text](url)  
 
 If you want to use your own dataset, dont forget to change the arguments of train() and test() functions.  
 You can modify the number of `timesteps` too (in both files).  
